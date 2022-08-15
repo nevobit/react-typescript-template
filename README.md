@@ -19,3 +19,8 @@ or
 ```
   yarn dev
 ```
+
+#### Regular dependencies
+- redux
+- react-router-dom
+- vite
