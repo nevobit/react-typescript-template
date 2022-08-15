@@ -13,5 +13,9 @@ Install dependencies
 ```
 Run project
 ```
-  npm run dev or yarn dev
+  npm run dev
+```
+or
+```
+  yarn dev
 ```
