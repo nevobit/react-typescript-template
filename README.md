@@ -9,5 +9,9 @@ To create a new project based on this template use:
 Install dependencies
 ```
   cd react-project-template
-   npm install
+  npm install or yard install
+```
+Run project
+```
+  npm run dev or yarn dev
 ```
