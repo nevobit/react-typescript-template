@@ -1,12 +1,14 @@
 import { PublicRoutes } from '@/constant-definitions'
 import React from 'react'
-import { Navigate } from 'react-router-dom'
+import { Navigate, Outlet } from 'react-router-dom'
 
 const GuardRoute = () => {
 
+    const userInfo = null;
+
   return (
     <div>
-        <Navigate replace to={PublicRoutes} />
+        {userInfo? <Outlet /> : <Navigate replace to={PublicRoutes} />}
     </div>
   )
 }

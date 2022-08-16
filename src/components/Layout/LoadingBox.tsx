@@ -1,7 +1,10 @@
-const LoadingBox = () => {
+import '../../styles/loading.css'
+
+export const LoadingBox = () => {
   return (
-    <div>
-        Cargando...
+    <div className="loader-container">
+      <div className="loader"></div>
+        <p>Cargando...</p>
     </div>
   )
 }
