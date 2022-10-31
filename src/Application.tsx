@@ -1,6 +1,6 @@
 import { Suspense } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import LoadingBox from "./components/Layout/LoadingBox";
+import { LoadingBox } from "./components";
 import NotFound from "./screens/NotFount";
 
 const Application = () => {
